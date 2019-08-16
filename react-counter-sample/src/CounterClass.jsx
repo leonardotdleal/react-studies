@@ -25,7 +25,7 @@ class CounterClass extends Component {
       <DivCounter>
         <h2>Counter with class</h2>
         <Button action={this.decrement}>-</Button>
-        <h2>{this.state.count}</h2>
+        <h3>{this.state.count}</h3>
         <Button action={this.increment}>+</Button>
       </DivCounter>
     );

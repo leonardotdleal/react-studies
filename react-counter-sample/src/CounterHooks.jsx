@@ -13,7 +13,7 @@ const CounterHooks = ({ countHooks = 0 }) => {
     <DivCounter>
       <h2>Counter with hooks</h2>
       <Button action={decrement}>-</Button>
-      <h2>{count}</h2>
+      <h3>{count}</h3>
       <Button action={increment}>+</Button>
     </DivCounter>
   );
