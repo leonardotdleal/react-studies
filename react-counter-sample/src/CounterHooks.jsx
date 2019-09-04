@@ -5,7 +5,7 @@ import DivCounter from './components/DivCounter';
 
 const CounterHooks = ({ countHooks = 0 }) => {
   const [count, setCount] = useState(countHooks);
-  
+
   const increment = () => setCount(count + 1);
   const decrement = () => setCount(count - 1);
 
@@ -17,7 +17,6 @@ const CounterHooks = ({ countHooks = 0 }) => {
       <Button action={increment}>+</Button>
     </DivCounter>
   );
-
-}
+};
 
 export default CounterHooks;

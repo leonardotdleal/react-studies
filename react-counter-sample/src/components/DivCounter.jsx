@@ -1,4 +1,4 @@
-import styled from 'styled-components'; //isc
+import styled from "styled-components"; //isc
 
 const DivCounter = styled.div`
   align-content: center;

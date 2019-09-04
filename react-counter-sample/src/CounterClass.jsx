@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import Button from './components/Button';
-import DivCounter from './components/DivCounter';
+import Button from "./components/Button";
+import DivCounter from "./components/DivCounter";
 
 class CounterClass extends Component {
   constructor(props) {
@@ -9,16 +9,16 @@ class CounterClass extends Component {
 
     this.state = {
       count: 0
-    }
+    };
   }
 
   decrement = () => {
     this.setState({ count: this.state.count - 1 });
-  }
+  };
 
   increment = () => {
     this.setState({ count: this.state.count + 1 });
-  }
+  };
 
   render() {
     return (
@@ -30,7 +30,6 @@ class CounterClass extends Component {
       </DivCounter>
     );
   }
-
 }
 
 export default CounterClass;
